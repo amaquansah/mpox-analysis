@@ -31,6 +31,8 @@ clean_preprocess_text <- function(text_data) {
     emoji::emoji_replace("") %>%
     str_replace_all("[\r\n]+", " ") %>%
     str_replace_all("https?://\\S+|www\\.\\S+", " ") %>%
+    str_replace_all("\\S*\\.com\\S*", " ") %>%
+    str_replace_all("https?://\\S+|ftp://\\S+|www\\.\\S+", " ") %>%
     str_replace_all("rt[\\s]+|@\\S+|#\\S+|\\[|\\]|â\\\\x92|'s|â\\S+|[[:punct:]]", " ") %>%
     str_replace_all("covid\\S*|corona\\S*", "coronavirus") %>%
     str_replace_all("monkeypox\\S*|monkey[[:space:]]*pox|mpx\\S*|mpv\\S*|mpox\\S*", "mpox") %>%
