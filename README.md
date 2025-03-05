@@ -1,4 +1,4 @@
-## Trend of Instagram sentiment and daily confirmed mpox cases (July 2022 – August 2024)
+## Trend of Instagram sentiments and daily confirmed mpox cases
 
 ![](trend.png)
 
