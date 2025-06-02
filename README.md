@@ -1,4 +1,4 @@
-## Trend of Instagram sentiments and daily confirmed mpox cases
+## Fear & anger in public reactions to mpox on Instagram
 
-![](trend.png)
+![](picABS.png)
 
